@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#FFFFFF">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="700dp" android:orientation="vertical" android:gravity="center_vertical" android:padding="28dp">
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EPOST" android:textColor="#0F172A" android:textStyle="bold" android:textSize="32sp"/>
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34dp" android:text="Selamat Datang 👋" android:textColor="#0F172A" android:textStyle="bold" android:textSize="28sp"/>
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="Masuk ke akun Anda" android:textColor="#64748B" android:textSize="16sp"/>
+  <EditText android:id="@+id/tenantInput" android:layout_width="match_parent" android:layout_height="58dp" android:hint="Tenant" android:padding="16dp" android:background="@drawable/input_bg"/>
+  <EditText android:id="@+id/emailInput" android:layout_width="match_parent" android:layout_height="58dp" android:layout_marginTop="12dp" android:hint="Email" android:padding="16dp" android:background="@drawable/input_bg"/>
+  <EditText android:id="@+id/passwordInput" android:layout_width="match_parent" android:layout_height="58dp" android:layout_marginTop="12dp" android:hint="Password" android:inputType="textPassword" android:padding="16dp" android:background="@drawable/input_bg"/>
+  <Button android:id="@+id/loginButton" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="20dp" android:text="Masuk" android:textAllCaps="false" android:textStyle="bold" android:textColor="#FFFFFF" android:backgroundTint="#059669"/>
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:gravity="center" android:text="Multi-tenant  •  Offline Ready  •  Secure" android:textColor="#94A3B8" android:textSize="12sp"/>
+ </LinearLayout>
+</ScrollView>
